@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Charles Cantin-Photographe</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="home" class="header">
+      <!-- Navigation -->
+      <nav class="nav">
+        <div class="navigation container">
+          <div class="logo">
+            <img src="images/logo.png" alt="">
+          </div>
+
+          <div class="menu">
+            <div class="top-nav">
+              <div class="close">
+                <i class="fas fa-times"></i>
+              </div>
+            </div>
+
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link scroll-link">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a href="photo.html" class="nav-link scroll-link">Galerie</a>
+              </li>
+              <li class="nav-item">
+                <a href="tarif.html" class="nav-link scroll-link">Tarifs et Prestation</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link scroll-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link scroll-link"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link scroll-link"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link scroll-link"><i class="fab fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+      <!-- photo -->
+      
+      <div class="wrapper">
+        <!-- filter Items -->
+        <nav>
+          <div class="items">
+            <span class="item active" data-name="all">Tout</span>
+            <span class="item" data-name="bebe">Bébé</span>
+            <span class="item" data-name="famille">Famille</span>
+            <span class="item" data-name="mariage">Mariage</span>
+            <span class="item" data-name="grossesse">Grossesse</span>
+          </div>
+        </nav>
+        <!-- filter Images -->
+        <div class="gallery">
+          <div class="image" data-name="bebe"><span><img src="images/bebe.jpg" alt=""></span></div>
+          <div class="image" data-name="bebe"><span><img src="images/bebe_1.jpg" alt=""></span></div>
+          <div class="image" data-name="bebe"><span><img src="images/bebe_2.jpg" alt=""></span></div>
+          <div class="image" data-name="famille"><span><img src="images/family.jpg" alt=""></span></div>
+          <div class="image" data-name="famille"><span><img src="images/family_1.jpg" alt=""></span></div>
+          <div class="image" data-name="famille"><span><img src="images/familiy_2.jpg" alt=""></span></div>
+          <div class="image" data-name="grossesse"><span><img src="images/grossesse.jpg" alt=""></span></div>
+          <div class="image" data-name="grossesse"><span><img src="images/grossesse_1.jpg" alt=""></span></div>
+          <div class="image" data-name="grossesse"><span><img src="images/grossesse_2.jpg" alt=""></span></div>
+          <div class="image" data-name="mariage"><span><img src="images/mariage.jpg" alt=""></span></div>
+          <div class="image" data-name="mariage"><span><img src="images/mariage_1.jpg" alt=""></span></div>
+          <div class="image" data-name="mariage"><span><img src="images/mariage_2.jpg" alt=""></span></div>
+        </div>
+      </div>
+      <!-- fullscreen img preview box -->
+      <div class="preview-box">
+        <div class="details">
+          <span class="title">Image Category: <p></p></span>
+          <span class="icon fas fa-times"></span>
+        </div>
+        <div class="image-box"><img src="" alt=""></div>
+      </div>
+      <div class="shadow"></div>
+      
+
+    </header>
+
+    <footer>
+      <p>Created By CBA| &copy; 2021 All rights reserved.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="index.js"></script>
+    <script src="photo.js"></script>
+  </body>
+</html>

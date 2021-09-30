@@ -56,7 +56,7 @@ li {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background-image: url(../ecf_photo/images/photo.jpg);
+  background-image: url(images/photo.jpg);
   background-size: cover;
   z-index: 1;
 }
